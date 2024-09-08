@@ -6,6 +6,7 @@
             <class name="org.example.LabTest1">
                 <methods>
                     <include name="getRequest"/>
+                    <include name="getRequest1"/>
                 </methods>
             </class>
         </classes>

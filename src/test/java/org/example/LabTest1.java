@@ -16,4 +16,17 @@ public class LabTest1 {
 
 
     }
+
+    @Test
+    public void getRequest1(){
+        RestAssured
+                .given()
+                .baseUri("https://restful-booker.herokuapp.com")
+                .basePath("/ping")
+                .when()
+                .get()
+                .then().statusCode(201);
+
+
+    }
 }
